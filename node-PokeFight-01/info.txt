@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/60205891/import-json-extension-in-es6-node-js-throws-an-error 
+
+// 1. Option data zu importieren / als JSON
+let rawdata = fs.readFileSync('./data/data.json')
+let pokemonData = JSON.parse(rawdata)
